@@ -1,0 +1,507 @@
+/*blinks*/
+
+
+.blinks{
+    
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    
+}
+.bu{
+      text-decoration: none!important;
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+      padding: 20px;
+      width: 200px;
+}
+.bu:hover{
+    color: white;
+}
+
+/*exception*/
+
+#snavba {
+              background-color: #111;
+              position: fixed;
+              
+              width: 100%;
+              display:block;
+              transition: top 1s;
+              z-index: 999;
+            }
+
+            #snavba a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 15px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+/**/
+
+
+#inc{
+    background-color: rgba(0,0,0,0.9);
+    
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    
+}
+#inc div{
+    
+}
+#inc img{
+    height: 110px;
+    width: 110px;
+    padding-top: 5px;
+}
+
+#inc span{
+    color: white;
+}
+
+.diaglogo {
+    width: 50%;
+    height: 100px;
+    padding-left:50px;
+    color: white;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+    font-size: 175px;
+    font-family: 'scriptina','Dancing Script',cursive;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    letter-spacing: 0px;
+    font-weight: 1000;
+    z-index: 2;
+    
+}
+
+
+.diaglogosmall {
+    width: 100%;
+    height: 100px;
+    color: white;
+    -ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Safari 3-8 */
+    transform: rotate(-25deg);
+    font-size: 75px;
+    font-family: 'scriptina','Dancing Script',cursive;
+    position: absolute;
+    left: -30;
+    top: 30%;
+    letter-spacing: 0px;
+    font-weight: 1000;
+    margin: 0px;
+    z-index: 2;
+}
+/*--------important--------*/
+
+            #fbird img{
+                height: 80px;
+                width: 80px;
+            }
+
+
+#fbird{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    
+}
+#edition10{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+            .homehead{
+                display: none;
+            }
+            .rhomehead{
+                display: none;
+            }
+            .mhomehead{
+                display: none;
+            }
+
+            #topwall{
+                height: 50%;
+            }
+            
+            #saslogo{
+                display: none;
+            }
+            /*modals*/
+
+            .gen img{
+                width: 100%;
+                height: 45%;
+            }
+            
+            /*table*/
+            table tr td{
+                text-align: left;
+                color: black;
+                border-bottom: 1px solid #ddd;
+                font-size: 15px;
+            }
+            table tr th{
+                text-align: left;
+                color: black;
+                border-bottom: 1px solid #ddd;
+                font-size: 15px;
+            }
+
+            table tr:nth-child(odd) {background-color: #f2f2f2;}
+
+
+            
+            /*carousel*/
+
+            .carousel-inner img {
+                  width: 100%;
+                  height: 50%;
+              }
+            
+            @media screen and (max-width: 400px) {
+                .rhomehead{
+                display: block;
+                }
+            }
+            @media screen and (max-width: 1001px) and (min-width: 401px) {
+                .mhomehead{
+                display: block;
+                }
+                
+
+                /*table*/
+                table tr td{
+                    text-align: left;
+                    color: black;
+                    border-bottom: 1px solid #ddd;
+                    font-size: 20px;
+                }
+                table tr th{
+                    text-align: left;
+                    color: black;
+                    border-bottom: 1px solid #ddd;
+                    font-size: 20px;
+                }
+
+                table tr:nth-child(odd) {background-color: #f2f2f2;}
+
+
+                
+            }
+            @media screen and (min-width: 1000px) {
+                                    #topwall {
+                                         height: 100%;
+                                    }
+                                    #saslogo{
+                                        display: block;
+                                    }
+                                    .gen img{
+                                        width: 100%;
+                                        height: 70%;
+                                    }
+                                    .homehead{
+                                        display: block;
+                                    }
+                                    .carousel-inner img {
+                                      width: 100%;
+                                      height: 100%;
+                                  }
+                                   #fbird img{
+                                    height: 192px;
+                                    width: 192px;
+                                }
+
+                                #fbird{
+                                    position: absolute;
+                                    right: 15%;
+                                    top: 25%;
+
+                                }
+                                #edition10{
+                                    color: white;
+                                    font-size: 25px;
+                                    font-weight: bold;
+                                }
+                
+                                /*table*/
+                                table tr td{
+                                    text-align: left;
+                                    color: black;
+                                    border-bottom: 1px solid #ddd;
+                                    font-size: 30px;
+                                }
+                                table tr th{
+                                    text-align: left;
+                                    color: black;
+                                    border-bottom: 1px solid #ddd;
+                                    font-size: 30px;
+                                }
+
+                                table tr:nth-child(odd) {background-color: #f2f2f2;}
+
+                
+                
+            }
+
+/*IMPORTANT end*/
+/*  Navbar */
+
+            #snavbar {
+              background-color: #111;
+              position: fixed;
+              top: -150px;
+              width: 100%;
+              display:block;
+              transition: top 1s;
+              z-index: 999;
+            }
+
+            #snavbar a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 15px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+/*  End Nav Bar*/
+
+
+/*side nav*/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: -3;
+    background-color: #eee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-right: solid 2px;
+    border-right-color: gainsboro;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.shad{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f00;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*end side nav*/
+
+.carousel-item{
+    width: 29.333333%;
+    float: left;
+    position: relative;
+    padding: 2%;
+}
+
+@media screen and (max-width:768px){
+    .one-third-fixs{
+        width:96%;
+        height: auto;
+		margin :0 auto;
+		padding: 0;
+	}
+}
+
+/*--SPORTS--*/
+
+.sports img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.sports div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.special img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.sports button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.special div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.special button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sports span{
+    font-weight: bold;
+}
+.special span{
+    font-weight: bold;
+}
+.sports span:hover{
+    color: red;
+    transition: 0.5s;
+     -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.special span:hover{
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/*fafa*/
+.fa {
+    padding: 15px;
+    width:40px;
+    height:40px;
+  font-size:15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: rgb(200,0,200);
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+/**/
+.fgames a{
+    text-decoration: none!important;
+    color: white;
+}
+.fgames a:hover{
+    color: lime;
+}
+.fmenu a{
+    text-decoration: none!important;
+    color: white;
+}
+.fmenu a:hover{
+    color: lime;
+}
+
+footer{
+    font-size:15px;
+}
+
+
+
+/*FLOAT*/
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+
+
+.avatar {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	
+}
